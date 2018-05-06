@@ -1,13 +1,17 @@
+package Manager;
+
+import java.util.ArrayList;
 
 public class Drug_Prescription {
-	private Drug drugObj;
+	ArrayList<Drug> drugs = new ArrayList<>();
 	private Prescription prescription;
 	private int price;
-	public Drug getDrugObj() {
-		return drugObj;
+	
+	public ArrayList<Drug> getDrugs() {
+		return drugs;
 	}
-	public void setDrugObj(Drug drugObj) {
-		this.drugObj = drugObj;
+	public void setDrugs(ArrayList<Drug> drugs) {
+		this.drugs = drugs;
 	}
 	public Prescription getPrescription() {
 		return prescription;

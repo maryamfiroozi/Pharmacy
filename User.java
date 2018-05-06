@@ -1,8 +1,13 @@
+package Manager;
 
 public class User {
 	private String userName;
 	private String Password;
-	private String admin;
+	private String type;  //define the access level of people base on their job
+	User(String userName, String Password){
+		this.userName = userName;
+		this.Password = Password;
+	}
 	public String getUserName() {
 		return userName;
 	}
@@ -15,10 +20,10 @@ public class User {
 	public void setPassword(String password) {
 		Password = password;
 	}
-	public String getAdmin() {
-		return admin;
+	public String gettype() {
+		return type;
 	}
-	public void setAdmin(String admin) {
-		this.admin = admin;
+	public void settype(String type) {
+		this.type = type;
 	}
 }

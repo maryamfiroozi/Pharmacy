@@ -1,3 +1,4 @@
+package Manager;
 
 public class Insurance_Drug {
 	private Insurance insurance;

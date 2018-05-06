@@ -1,7 +1,9 @@
+package Manager;
 
 public class Store {
 	private Drug drug;
 	private int drugCount;
+	
 	public Drug getNewDrug() {
 		return drug;
 	}

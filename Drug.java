@@ -1,10 +1,19 @@
+package Manager;
+
 
 public class Drug {
 	private int drugID;
 	private String name;
 	private int price;
-	private String expDate;
-	private String proDate;
+	
+	public Drug(int drugID, String name, int Price ) {
+		this.drugID = drugID;
+		this.name = name;
+		this.price = price;
+	}
+	public Drug() {
+		// TODO Auto-generated constructor stub
+	}
 	public int getDrugID() {
 		return drugID;
 	}
@@ -23,18 +32,7 @@ public class Drug {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	public String getExpDate() {
-		return expDate;
-	}
-	public void setExpDate(String expDate) {
-		this.expDate = expDate;
-	}
-	public String getProDate() {
-		return proDate;
-	}
-	public void setProDate(String proDate) {
-		this.proDate = proDate;
-	}
+	
 	
 
 }

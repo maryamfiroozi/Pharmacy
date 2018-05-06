@@ -1,3 +1,4 @@
+package Manager;
 
 public class Insurance {
 	private int insuranceID;
